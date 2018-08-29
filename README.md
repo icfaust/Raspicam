@@ -6,6 +6,7 @@ to the MDSplus dataservers at the MIT PSFC. The workflow depended on the proper 
 of MDSplus on a linux distribution (raspianOS mainly), which allowed for the typical linux
 installation to be used.  The process worked as follows:
 
+0) At beginning of day, raspicam.sh started the camera daemon/python scripts
 1) init.py was run in the background polling for a camera-specific initialization call by
 MDSplus
 2) using raw-encoded data, the acq.py script was started with the shot number
