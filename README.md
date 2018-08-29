@@ -14,7 +14,7 @@ MDSplus
 to wait for a specific GPIO pin to go low
 4) It acquired for a set period of time at set parameters, and stored the data as .h264
 (This provided the greatest data throughput due to memory limitations)
-5) The data was converted to YUV420 and the brightness was extracted.
+5) The data was converted to YUV420 and the brightness was extracted (anal.py)
 6) The datafile was moved locally for the MDSplus server
 7) The MDSplus user pulled the data via scp from their raspberry pi workspace, and stored
-the data in the SPECTRSCOPY tree (hardcoded per camera in 
+the data in the SPECTRSCOPY tree (hardcoded per camera in raspicam_store.py) 
