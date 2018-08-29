@@ -18,3 +18,5 @@ to wait for a specific GPIO pin to go low
 6) The datafile was moved locally for the MDSplus server
 7) The MDSplus user pulled the data via scp from their raspberry pi workspace, and stored
 the data in the SPECTRSCOPY tree (hardcoded per camera in raspicam_store.py) 
+
+A more detailed explanation of the entire system can be found at my website: http://ianfaust.com/2017/07/07/Raspicam/
